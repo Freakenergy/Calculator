@@ -13,6 +13,7 @@ public class MyJFrame extends JFrame{
         super.setSize(width, height);
         super.setDefaultCloseOperation(EXIT_ON_CLOSE);
         super.setLocationRelativeTo(null);
+        super.setResizable(false);
         super.setVisible(true);
     }
     
